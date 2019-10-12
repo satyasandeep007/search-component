@@ -1,0 +1,50 @@
+
+html {
+  min-height: 100%;
+  margin: 0%;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;  
+  position: relative;
+  min-width: 100vh;
+}
+
+.search{
+  flex: 1;
+  float: left;
+  width: 50%;
+  background-color: rgb(43, 4, 80);
+  color: white;
+  padding: 3%;
+  padding-bottom: 10%;
+  font-weight: bolder;
+  margin: 0%;
+}
+
+input[type=email], input[type=password] {
+  background-color: rgb(180, 240, 180);
+  margin-bottom: 5%;
+}
+input[type=text] {
+  border-radius: 30rem;
+  margin-bottom: 7%;
+}
+.register{
+  flex: 1;
+  float: right;
+  margin: 0%;
+  width: 50%;
+  background-color: #fff;
+  color: rgb(43, 4, 80);
+  padding: 3%;
+  padding-bottom: 10%;
+}
+
+.button {
+ background-color: aquamarine; 
+}
+
